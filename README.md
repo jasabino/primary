@@ -1,7 +1,18 @@
 # Primary Challenge
 Code Challenge de Automatización para Primary
 
-### Pre-requisitos
+## Consideraciones:
+
+1. En las pruebas de FrontEnd - Ejercicio 1 hay dos pruebas que fallan:
+    1.1 Categorías -> Belleza y Cuidado Personal -> Perfumes Importados
+        No existe la subcategoria Perfumer Importados, La categoria Belleza y Cuida Personal no tiene Sub categorias
+    1.2 Categorías -> Herramientas e Industria -> Industria Textil
+        Hay un error en el nombre de la categoria en el enunciado deberia ser `Herramientas e Industrias`, pero se dejo la prueba fallando tal como esta en el enunciado
+
+2. En las prueba de FrontEnd - Ejercicio 2, la prueba falla a veces, porque para algunos productos no coincide el precio, en el listado el precio esta redondeado y en el detalle del producto sale sin redondear
+    Ejemplo: https://www.mercadolibre.com.ar/p/MLA15188562?pdp_filters=state:TUxBUENBUGw3M2E1%7Ccity:TUxBQ0NBUGZlZG1sYQ&source=search#position=47&type=product&tracking_id=3683ce76-bb7e-4743-8371-a839b348be47
+
+## Pre-requisitos
 
 Necesitaras estos programas para ejecutar el proyecto:
 
